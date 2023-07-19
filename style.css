@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 2rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  all: unset; /* es sind default schriftarten etc auf form und button elementen, so geht man dem aus dem weg*/
+  font-family: monospace;
+  font-size: 2rem;
+  border: 4px solid blue;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+  
+/* handy und pc Screen unterschiedlich */
